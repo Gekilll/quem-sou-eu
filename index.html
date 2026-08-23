@@ -6,67 +6,80 @@
         <!-- Essa parte muda o título da página, e atribui um favicon -->
         <title>José Gabriel</title>
         <link rel="icon" href="imagens/oculos.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <!-- Do <h1> até o último <p> dá um breve resumo sobre mim-->
-        <h1>Quem sou eu?</h1>
-        <img src="imagens/gon.webp" alt="imagen do gon de hunterxhunter" width="200">
-        <p>Meu nome é <strong>José Gabriel da Rocha Coutinho</strong>, mas prefiro ser chamado apenas por Gabriel. Estudo informática junto ao ensino médio no IFRN.</p>
-        <p>Sou da cidade de Jacaraú-PB. No meu tempo livre, gosto de jogar jogos eletrônicos, assistir animes, filmes, praticar algum esporte, entre outros.</p>
-        <p>Posso dizer que sou uma pessoa muito curiosa com tudo que vejo.</p>
-        <h2>Sites que eu gosto de acessar</h2>
+    <div class="sitetodo">
+        <div class="inicio"
+            <h1 id="titulo"><strong>Quem sou eu?</strong></h1><br>
+            <img src="imagens/gon.webp" alt="imagen do gon de hunterxhunter">
+        </div>
+        <div class="paragrafos">
+            <h2>Um pouco sobre mim</h2>
+            <p>Meu nome é <strong>José Gabriel da Rocha Coutinho</strong>, mas prefiro ser chamado apenas por Gabriel. Estudo informática junto ao ensino médio no IFRN.</p>
+            <p>Sou da cidade de Jacaraú-PB. No meu tempo livre, gosto de jogar jogos eletrônicos, assistir animes, filmes, praticar algum esporte, entre outros.</p>
+            <p>Posso dizer que sou uma pessoa muito curiosa com tudo que vejo.</p>
+        </div>
+        <div class="sites">
+            <h2>Sites que eu gosto de acessar</h2>
         <!--Essa parte cria uma lista não ordenada, nessa lista tem umas imagens clicáveis que levam pra o link dos sites que eu gosto-->
-        <ul>
-            <li>
-                <a href="https://medalhei.com/" target="_blank">
-                    <img src="imagens/medalhei.webp" alt="imagem do site medalhei">
-                </a>
-            </li>
-            <li>
-                <a href="https://www.youtube.com/" target="_blank">
-                    <img src="imagens/youtube.webp" alt="imagem do site youtube">
-                </a>
-            </li>
-            <li>
-                <a href="https://music.youtube.com/" target="_blank">
-                    <img src="imagens/youtube-music.webp" alt="imagem do site youtube music">
-                </a>
-            </li>
-        </ul>
+            <ul>
+                <li>
+                    <a href="https://medalhei.com/" target="_blank">
+                        <img src="imagens/medalhei.webp" alt="imagem do site medalhei">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/" target="_blank">
+                        <img src="imagens/youtube.webp" alt="imagem do site youtube">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://music.youtube.com/" target="_blank">
+                        <img src="imagens/youtube-music.webp" alt="imagem do site youtube music">
+                    </a>
+                </li>
+            </ul>
+        </div>
         <!--Isso aqui cria uma tabela, apresentando alguns dos meus interesses pessoais-->
-        <table border="1">
-            <tr>
-                <th>
-                    Preferências pessoais
-                </th>
-                <th>
-                    Por que gosto?
-                </th>
-            </tr>
-            <tr>
-                <td>
-                    Animes
-                </td>
-                <td>
-                    Eu desde o momento que assisti pela primeira vez, gostei do estilo, as histórias, e afins. Já assisti vários desde então.
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Futebol
-                </td>
-                <td>
-                    Desde novo já assistia jogos de futebol, principalmente do Brasil. Depois  que cresci, desenvolvi apreço pelo Flamengo e pelo Barcelona.
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    Jogos
-                </td>
-                <td>
-                    Uma das principais coisas que fazia antigamente, era assistir gameplays, tanto é que um dos sonhos que sempre tive, foi ter um videogame e um pc.
-                </td>
-            </tr>
-        </table>
+        <div class="tabela">
+            <h2>Algumas preferências minhas</h2>
+            <table border="1">
+                <tr>
+                    <th>
+                        Preferências pessoais
+                    </th>
+                    <th>
+                        Por que gosto?
+                    </th>
+                </tr>
+                <tr>
+                    <td>
+                        Animes
+                    </td>
+                    <td>
+                        Eu desde o momento que assisti pela primeira vez, gostei do estilo, as histórias, e afins. Já assisti vários desde então.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Futebol
+                    </td>
+                    <td>
+                        Desde novo já assistia jogos de futebol, principalmente do Brasil. Depois  que cresci, desenvolvi apreço pelo Flamengo e pelo Barcelona.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Jogos
+                    </td>
+                    <td>
+                        Uma das principais coisas que fazia antigamente, era assistir gameplays, tanto é que um dos sonhos que sempre tive, foi ter um videogame e um pc.
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
     </body>
 </html>
