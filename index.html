@@ -1,85 +1,103 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <!-- Essa parte muda o título da página, e atribui um favicon -->
         <title>José Gabriel</title>
         <link rel="icon" href="imagens/oculos.png" type="image/png">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
-        <!-- Do <h1> até o último <p> dá um breve resumo sobre mim-->
-    <div class="sitetodo">
-        <div class="inicio"
-            <h1 id="titulo"><strong>Quem sou eu?</strong></h1><br>
-            <img src="imagens/gon.webp" alt="imagen do gon de hunterxhunter">
-        </div>
-        <div class="paragrafos">
-            <h2>Um pouco sobre mim</h2>
-            <p>Meu nome é <strong>José Gabriel da Rocha Coutinho</strong>, mas prefiro ser chamado apenas por Gabriel. Estudo informática junto ao ensino médio no IFRN.</p>
-            <p>Sou da cidade de Jacaraú-PB. No meu tempo livre, gosto de jogar jogos eletrônicos, assistir animes, filmes, praticar algum esporte, entre outros.</p>
-            <p>Posso dizer que sou uma pessoa muito curiosa com tudo que vejo.</p>
-        </div>
-        <div class="sites">
-            <h2>Sites que eu gosto de acessar</h2>
-        <!--Essa parte cria uma lista não ordenada, nessa lista tem umas imagens clicáveis que levam pra o link dos sites que eu gosto-->
-            <ul>
-                <li>
-                    <a href="https://medalhei.com/" target="_blank">
-                        <img src="imagens/medalhei.webp" alt="imagem do site medalhei">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.youtube.com/" target="_blank">
-                        <img src="imagens/youtube.webp" alt="imagem do site youtube">
-                    </a>
-                </li>
-                <li>
-                    <a href="https://music.youtube.com/" target="_blank">
-                        <img src="imagens/youtube-music.webp" alt="imagem do site youtube music">
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <!--Isso aqui cria uma tabela, apresentando alguns dos meus interesses pessoais-->
-        <div class="tabela">
-            <h2>Algumas preferências minhas</h2>
-            <table border="1">
-                <tr>
-                    <th>
-                        Preferências pessoais
-                    </th>
-                    <th>
-                        Por que gosto?
-                    </th>
-                </tr>
-                <tr>
-                    <td>
-                        Animes
-                    </td>
-                    <td>
-                        Eu desde o momento que assisti pela primeira vez, gostei do estilo, as histórias, e afins. Já assisti vários desde então.
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Futebol
-                    </td>
-                    <td>
-                        Desde novo já assistia jogos de futebol, principalmente do Brasil. Depois  que cresci, desenvolvi apreço pelo Flamengo e pelo Barcelona.
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        Jogos
-                    </td>
-                    <td>
-                        Uma das principais coisas que fazia antigamente, era assistir gameplays, tanto é que um dos sonhos que sempre tive, foi ter um videogame e um pc.
-                    </td>
-                </tr>
-            </table>
-        </div>
-    </div>
+    <body class="bg-dark">
+        <main class="container py-4 py-md-5">
+            <div class="portfolio mx-auto">
+                <div class="d-flex justify-content-center">
+                    <div class="shadow p-3 mb-5 rounded">
+                        <div class="card text-white bg-dark bg-gradient mb-3" style="max-width: 540px;">
+                            <div class="row g-0">
+                                <div class="col-md-4">
+                                    <img src="imagens/gon.webp" class="img-fluid rounded-start" alt="imagem do gon">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Quem sou eu?</h5>
+                                        <p class="card-text">Meu nome é <strong>José Gabriel da Rocha Coutinho</strong>, mas prefiro ser chamado apenas por Gabriel. Estudo informática junto ao ensino médio no IFRN. Sou da cidade de Jacaraú-PB. No meu tempo livre, gosto de jogar jogos eletrônicos, assistir animes, filmes, praticar algum esporte, entre outros. Posso dizer que sou uma pessoa muito curiosa com tudo que vejo.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>    
+                        <div class="card bg-dark bg-gradient text-white" style="width: 18rem;">
+                            <div class="card-header">Sites que eu gosto de acessar</div>
+                        <!--Essa parte cria uma lista não ordenada, nessa lista tem umas imagens clicáveis que levam pra o link dos sites que eu gosto-->   
+                            <ul class="list-group">
+                                <li class="list-group-item list-group-item-action list-group-item-dark">
+                                    <a href="https://medalhei.com/" target="_blank" rel="noopener noreferrer" aria-label="Abrir o Medalhei">
+                                        <img src="imagens/medalhei.webp" alt="imagem do site medalhei" class="img-fluid">
+                                    </a>
+                                </li>
+                                <li class="list-group-item list-group-item-action list-group-item-dark">
+                                    <a href="https://www.youtube.com/" target="_blank"  rel="noopener noreferrer" aria-label="Abrir o Youtube">
+                                        <img src="imagens/youtube.webp" alt="imagem do site youtube" class="img-fluid">
+                                    </a>
+                                </li>
+                                <li class="list-group-item list-group-item-action list-group-item-dark">
+                                    <a href="https://music.youtube.com/" target="_blank"  rel="noopener noreferrer" aria-label="Abrir o Youtube Music">
+                                        <img src="imagens/youtube-music.webp" alt="imagem do site youtube music" class="img-fluid">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--Isso aqui cria uma tabela, apresentando alguns dos meus interesses pessoais-->
+                        <div class="card bg-dark bg-gradient text-white">
+                            <h2 class="card-header">Algumas preferências minhas</h2>
+                            <div class="table-responsive">   
+                                <table class="table table-dark table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th scope="col">#</th>
+                                            <th scope="col">
+                                                Preferências pessoais
+                                            </th>
+                                            <th scope="col">
+                                                Por que gosto?
+                                            </th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <th scope="row">1</th>
+                                            <td>
+                                                Animes
+                                            </td>
+                                            <td>
+                                                Eu desde o momento que assisti pela primeira vez, gostei do estilo, as histórias, e afins. Já assisti vários desde então.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">2</th>
+                                            <td>
+                                                Futebol
+                                            </td>
+                                            <td>
+                                                Desde novo já assistia jogos de futebol, principalmente do Brasil. Depois  que cresci, desenvolvi apreço pelo Flamengo e pelo Barcelona.
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">3</th>
+                                            <td>
+                                                Jogos
+                                            </td>
+                                            <td>
+                                                Uma das principais coisas que fazia antigamente, era assistir gameplays, tanto é que um dos sonhos que sempre tive, foi ter um videogame e um pc.
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
     </body>
 </html>
